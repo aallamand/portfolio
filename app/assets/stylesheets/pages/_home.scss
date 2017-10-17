@@ -1,1 +1,35 @@
 // Specific CSS for your home-page
+.text {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-description {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  ul {
+  list-style-type: none;
+  }
+}
+
+.text-oppotunities {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  h1 {
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
