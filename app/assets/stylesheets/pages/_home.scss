@@ -7,29 +7,44 @@
   align-items: center;
 }
 .text-description {
-  height: 50vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 500px;
+  width: 600px;
   h1 {
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 25px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 30px;
   }
   ul {
   list-style-type: none;
+  width: 500px;
+
+  }
+  li {
+    border: 2px solid $gray;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    opacity: 0.9;
   }
 }
 
 .text-oppotunities {
-  height: 50vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 500px;
+  width: calc( 100vw - 190px);
   h1 {
+    opacity: 0.8;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
+  }
+  p {
+    opacity: 0.8;
+    font-weight: light;
+    font-size: 16px;
   }
 }
